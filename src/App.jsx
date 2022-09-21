@@ -174,7 +174,7 @@ const App = () => {
                 ))}
               </nav>
             </div>
-            <div className="flex flex-shrink-0 bg-gray-700 p-4">
+            {/* <div className="flex flex-shrink-0 bg-gray-700 p-4">
               <a href="#" className="group block w-full flex-shrink-0">
                 <div className="flex items-center">
                   <div>
@@ -190,7 +190,7 @@ const App = () => {
                   </div>
                 </div>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex flex-1 flex-col md:pl-64">
