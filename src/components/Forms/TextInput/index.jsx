@@ -7,8 +7,8 @@ const TextInput = ({
   value,
   handleChange,
   required = false,
-  invalid,
-  invalidMessage,
+  invalid = false,
+  invalidMessage = '',
   placeholder = '',
   disabled = false,
 }) => {

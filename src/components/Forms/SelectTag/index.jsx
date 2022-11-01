@@ -8,9 +8,9 @@ const SelectTag = ({
   options,
   handleChange,
   required = false,
-  invalid,
-  invalidMessage,
-  disabled
+  invalid = false,
+  invalidMessage = '',
+  disabled = false
 }) => {
 
   const selectOptions = options?.map(opt =>
